@@ -1372,7 +1372,43 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c32ada429b4df34c98eef8023762609, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TowerManager
-  towerDefinitions: []
+  towerDefinitions:
+  - type: 0
+    prefab: {fileID: 320243822939267828, guid: 848e08ad3b8f9c34087dfb194ca0794b, type: 3}
+    cost: 2
+    unlockWave: 1
+    maxPerSetup: 0
+    displayName: Tower
+  - type: 3
+    prefab: {fileID: 320243822939267828, guid: daae2062196e4a76869f7046af3acbff, type: 3}
+    cost: 3
+    unlockWave: 1
+    maxPerSetup: 0
+    displayName: Tank
+  - type: 1
+    prefab: {fileID: 8055422343968211385, guid: dea500d99531a434c854d3925a9865c6, type: 3}
+    cost: 4
+    unlockWave: 3
+    maxPerSetup: 0
+    displayName: Healer
+  - type: 4
+    prefab: {fileID: 320243822939267828, guid: 87687d683aff0c786d1e1e6ac95d419b, type: 3}
+    cost: 4
+    unlockWave: 5
+    maxPerSetup: 0
+    displayName: Splash
+  - type: 5
+    prefab: {fileID: 320243822939267828, guid: 475d2338f1e94f0bbc331499f53b5fac, type: 3}
+    cost: 3
+    unlockWave: 4
+    maxPerSetup: 0
+    displayName: Frost
+  - type: 2
+    prefab: {fileID: 1774892202126066909, guid: b7426853960eaee46968143e9e051a76, type: 3}
+    cost: 0
+    unlockWave: 1
+    maxPerSetup: 3
+    displayName: Outpost
   unionApprovalTimeout: 10
   supplyRadius: 2.5
   maxSupplyHops: 2
@@ -19446,8 +19482,8 @@ MonoBehaviour:
   enemyPrefab: {fileID: 4010358843730105108, guid: 8691e7224d282d749b4391c4b0d62803, type: 3}
   enemy2Prefab: {fileID: 4010358843730105108, guid: a291e7224d282d749b4391c4b0d62809, type: 3}
   enemy3Prefab: {fileID: 4010358843730105108, guid: a291e7224d282d749b4391c4b0d6280b, type: 3}
-  enemy4Prefab: {fileID: 0}
-  enemy5Prefab: {fileID: 0}
+  enemy4Prefab: {fileID: 4010358843730105108, guid: abaaa33792c1e4b9701d7d4f6600c3ef, type: 3}
+  enemy5Prefab: {fileID: 4010358843730105108, guid: 3ad211487756449cba27b5ed90749106, type: 3}
   spawnInterval: 1
   barricadeBusterUnlockWave: 4
   barricadeBusterSpawnRate: 0.08
